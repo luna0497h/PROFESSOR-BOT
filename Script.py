@@ -32,7 +32,7 @@ class script(object):
 
 <code>/batch https://t.me/mkn_bots_updates https://t.me/mkn_bots_updates</code>
 
-𝙲𝚁𝙴𝙳𝙸𝚃𝚂 ›› <a href=https://t.me/mkn_bots_updates><b>𝙼𝙺𝙽 𝙱𝙾𝚃𝚉</b></a>"""
+𝙲𝚁𝙴𝙳𝙸𝚃𝚂 ›› <a href=https://t.me/lunamovies007><b>LUNA</b></a>"""
     WHOIS_TXT ="""<b>WHOIS MODULE</b>
 Note:- Give a user details
 •/whois :-give a user full details"""
