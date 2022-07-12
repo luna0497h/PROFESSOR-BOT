@@ -1422,7 +1422,7 @@ async def auto_filter(client, msg, spoll=False):
         cap = f"<b>🎬 Title:</b> {search}\n\n<b>👥 Requested by: {message.from_user.mention}</b>\n<b>© Powered by: <a href='https://t.me/+y53tWFUw6Q43NzE9'>{message.chat.title}</a></b>\n\n<b>✍️ Note:</b> <s>This message will be Auto-deleted after 5 minutes to avoid copyright issues.</s>"
     if imdb and imdb.get('poster'):
         try:
-            hehe = await message.reply_photo(photo="https://telegra.ph/file/3abec164e23934e187fd5.jpg, caption=cap, reply_markup=InlineKeyboardMarkup(btn))
+            hehe = await message.reply_photo(photo="https://telegra.ph/file/3abec164e23934e187fd5.jpg", caption=cap, reply_markup=InlineKeyboardMarkup(btn))
             await asyncio.sleep(IMDB_DELET_TIME)
             await hehe.delete()           
         except (MediaEmpty, PhotoInvalidDimensions, WebpageMediaEmpty):
